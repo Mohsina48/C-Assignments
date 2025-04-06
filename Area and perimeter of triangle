@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+    float side1,side2,side3,area,semi_peri,peri;
+    printf("enter side1\n");
+    scanf("%f",&side1);
+    printf("enter side2\n");
+    scanf("%f",&side2);
+    printf("enter side3\n");
+    scanf("%f",&side3);
+    peri=side1+side2+side3;
+    semi_peri=(side1+side2+side3)/2;
+    area=sqrt(semi_peri*(semi_peri-side1)*(semi_peri-side2)*(semi_peri-side3));
+    printf("area of triangle=%f\nperimeter of triangle=%f\n",area,peri);
+}
