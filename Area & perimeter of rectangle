@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(){
+    int len,breadth,area,peri;
+    printf("enter len\n");
+    scanf("%d",&len);
+    printf("enter breadth\n");
+    scanf("%d",&breadth);
+    peri=2*(len+breadth);
+    area=len*breadth;
+    printf("area of rectangle=%d\nperimeter of rectangle=%d\n",area,peri);
+}
