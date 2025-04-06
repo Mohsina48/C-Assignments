@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(){
+    float side1,side2,side3,side4,height,area,peri;
+    printf("enter side1\n");
+    scanf("%f",&side1);
+    printf("enter side2\n");
+    scanf("%f",&side2);
+    printf("enter side3\n");
+    scanf("%f",&side3);
+    printf("enter side4\n");
+    scanf("%f",&side4);
+    printf("enter height\n");
+    scanf("%f",&height);
+    peri=side1+side2+side3+side4;
+    area=(1/2)*(side1+side2)*height;
+    printf("area of trapezium=%f\nperimeter of trapezium=%f\n",area,peri);
+}
