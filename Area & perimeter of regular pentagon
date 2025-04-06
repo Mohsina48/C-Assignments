@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+    int side;
+    printf("enter side\n");
+    scanf("%d",&side);
+    float area,peri;
+    peri=5*side;
+    area=(1.0/4)*sqrt(5*(5+2*sqrt(5)))*side*side;
+    printf("area of regular pentagon=%f\nperimeter of regular pentagon=%f\n",area,peri);
+}
