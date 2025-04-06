@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main(){
+    int side,base,height,area,peri;
+    printf("enter side\n");
+    scanf("%d",&side);
+    printf("enter height\n");
+    scanf("%d",&height);
+    printf("enter base\n");
+    scanf("%d",&base);
+    peri=2*(base+side);
+    area=base*height;
+    printf("area of parallelogram=%d\nperimeter of parallelogram=%d\n",area,peri);
+}
