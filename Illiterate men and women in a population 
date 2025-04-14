@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    int population = 80000;
+    int men = 0.52*population;
+    int total_literates = 0.48*population;
+    int literate_men = 0.35*population;
+    int illiterate_men = men - literate_men;
+    int women = population - men;
+    int literate_women = total_literates - literate_men;
+    int illiterate_women = women - literate_women;
+    int total_illiterates = illiterate_men + illiterate_women;
+    printf("Illiterate men=%d\nIlliterate women=%d\nTotal illiterate people=%d\n", illiterate_men,illiterate_women,total_illiterates);
+}
