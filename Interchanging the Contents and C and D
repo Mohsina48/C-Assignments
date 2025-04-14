@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    int C, D,swap;
+    printf("Enter two numbers");
+    scanf("%d %d", &C, &D);
+    swap = C;
+    C = D;
+    D = swap;
+    printf("Interchanged result will be \nC = %d\nD = %d\n", C, D);
+}
+    
