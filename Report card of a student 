@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(){
+    float maths, urdu, sci, sst, eng, total, percentage;
+    printf("enter marks in maths");
+    scanf("%f",&maths);
+    printf("enter marks in urdu");
+    scanf("%f",&urdu);
+    printf("enter marks in science");
+    scanf("%f", &sci);
+    printf("enter marks in social science");
+    scanf("%f", &sst);
+    printf("enter marks in English");
+    scanf("%f",&eng);
+    total=(maths+urdu+sci+sst+eng);
+    percentage=(total/500)*100;
+    printf("total marks obtained=%f\npercentage=%f", total ,percentage);
+    }
