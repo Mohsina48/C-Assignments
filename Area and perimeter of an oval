@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include <math.h>
+int main(){
+float a, b, area, perimeter;
+printf("Enter the semi-major axis");
+scanf("%f", &a):
+printf("Enter the semi-minor axis");
+scanf("%f", &b);
+area=3.14* a * b;
+printf("area of oval = %.2f\n", area);
+perimeter = 3.14* (3*(a + b) -sqrt((3*a+b)*(a+3*b)));
+printf("perimeter of oval = %.2f\n", perimeter);
+}
