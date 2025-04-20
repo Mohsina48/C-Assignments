@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+    int num, a, b, c, d, e;
+    printf("Enter a five-digit number");
+    scanf("%d", &num);
+    a = num / 10000;
+    b = (num / 1000) % 10;
+    c = (num / 100) % 10;
+    d = (num / 10) % 10;
+    e = num % 10;
+    printf("New number = %d%d%d%d%d\n", a + 1, b + 1, c + 1, d + 1, e + 1);
+}
