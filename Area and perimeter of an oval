@@ -3,7 +3,7 @@
 int main(){
 float a, b, area, perimeter;
 printf("Enter the semi-major axis");
-scanf("%f", &a):
+scanf("%f", &a);
 printf("Enter the semi-minor axis");
 scanf("%f", &b);
 area=3.14* a * b;
