@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main() {
+    int i, j, n;
+    double factorial, sum = 1.0;
+    // Start with 1.0 already included
+    printf("Enter the value of n ");
+    scanf("%d", &n);
+    printf("Sequence: 1");
+    for (i = 2; i <= n; i++) {
+        factorial = 1;
+        // Inner loop to calculate i!
+        for (j = 1; j <= i; j++) {
+            factorial *= j;
+        }
+        sum += 1.0 / factorial;
+        printf(" + 1/%d!", i);
+    }
+    printf("\nSum = %.6lf\n", sum);
+}
